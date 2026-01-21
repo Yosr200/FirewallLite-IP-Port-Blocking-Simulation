@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FirewallLite Dashboard</title>
+</head>
+<body>
+    <h1>Blocked IPs</h1>
+    <table border="1">
+        <tr><th>IP</th><th>Port</th><th>Simulated</th></tr>
+        {% for log in logs %}
+        <tr>
+            <td>{{ log.ip }}</td>
+            <td>{{ log.port or 'ALL' }}</td>
+            <td>{{ log.simulated }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
