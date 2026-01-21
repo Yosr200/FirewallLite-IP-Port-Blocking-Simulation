@@ -21,7 +21,7 @@ It allows you to **simulate or enforce IP and port blocking**, log blocked attem
 flowchart LR
     A[User Request] --> B[FirewallManager]
     B -->|simulate=True| C[Print Simulation Result]
-    B -->|simulate=False| D[Linux Firewall (iptables/NACL)]
+    B -->|simulate=False| D[Linux Firewall ]
     B --> E[Logs: blocked_ips.json]
     E --> F[Dashboard: visualize blocked IPs]
     A --> F
