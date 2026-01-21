@@ -21,8 +21,16 @@ It allows you to **simulate or enforce IP and port blocking**, log blocked attem
 | 10.0.0.50     | 22   | Enforced  | 2026-01-21 12:05 |
 | 172.16.0.20   | 80   | Simulated | 2026-01-21 12:10 |
 
-## 🔹Dashboard Screenshot
-dashboard.png
+## 🔹Technologies Used
+Python 3 – Core scripting
+
+Flask – Dashboard visualization
+
+JSON – Log storage
+
+iptables (Linux) – Optional network-level enforcement
+
+Docker – Optional containerization
 ## 🔹 Architecture Diagram
 
 ```mermaid
