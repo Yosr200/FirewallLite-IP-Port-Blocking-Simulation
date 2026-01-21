@@ -31,6 +31,14 @@ JSON – Log storage
 iptables (Linux) – Optional network-level enforcement
 
 Docker – Optional containerization
+## 🔹 Optional Enhancements (Roadmap)
+| Feature                  | Description                                       |
+| ------------------------ | ------------------------------------------------- |
+| 🔍 Filtering & Sorting   | Filter blocked IPs by IP, port, status, timestamp |
+| ⏱ Auto-refresh Dashboard | Live SOC-style monitoring without manual reload   |
+| ☁️ Cloud Simulation      | Simulate AWS NACLs / Security Groups              |
+| 📧 Alerting              | Email or Slack notifications on block events      |
+
 ## 🔹 Architecture Diagram
 
 ```mermaid
