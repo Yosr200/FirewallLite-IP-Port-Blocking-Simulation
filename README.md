@@ -22,7 +22,7 @@ It allows you to **simulate or enforce IP and port blocking**, log blocked attem
 | 172.16.0.20   | 80   | Simulated | 2026-01-21 12:10 |
 
 ## 🔹Dashboard Screenshot
-dashboard/images/dashboard.png
+dashboard/dashboard.png
 ## 🔹 Architecture Diagram
 
 ```mermaid
